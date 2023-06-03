@@ -12,22 +12,30 @@ header {
     color: white;
     background-color: blue;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 header h1 {
-    width: 60%;
     margin: auto;
     text-align: left;
+    justify-content: center;
+    padding-right: 75px;
+    
 }
 
 header h2 {
-    width: 40%;
-    align-items: center;
     justify-content: center;
-    margin: auto;
-    padding-left: 25px;
+    align-items: center;
+    margin: auto 0;
     font-size: medium;
+}
+
+#home {
+    margin-left: 15px;
+}
+
+#info {
+    margin-left: 15px;
 }
 
 a {
