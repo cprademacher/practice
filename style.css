@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-header {
+.header {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -40,4 +40,17 @@ header h2 {
 
 a {
     color: white;
+}
+
+.main {
+    margin-left: 20px;
+    padding-top: 60px;
+}
+
+.main h2 {
+    text-decoration: underline;
+}
+
+.main li {
+    padding: 5px;
 }
